@@ -8,7 +8,7 @@ export const AboutContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 950px;
     position: relative;
     z-index: 1;
 
@@ -100,3 +100,15 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `;
+
+export const HiddenButton = styled.a`
+    color: #fff;
+    text-decoration: none;
+
+    &:hover{
+        color: #01bf71;
+        transition: all 0.4s ease-in;
+    }
+`;
+
+//Make it so that when the button is hit, it makes it so a letter/number is added, and the correct passkey is needed to enter the secret room...

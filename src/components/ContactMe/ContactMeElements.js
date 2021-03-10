@@ -63,8 +63,8 @@ export const Form = styled.form`
     max-width: 400px;
     height: auto;
     width: 100%;
-    overflow-x: hidden;
     overflow: scroll;
+    overflow-x: hidden;
     z-index: 1;
     display: grid;
     margin: 0 auto;

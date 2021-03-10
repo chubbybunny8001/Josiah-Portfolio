@@ -6,7 +6,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'About Me',
     heading: 'Who am I?',
-    description: "I am a newly graduated Full Stack Web Designer. I'm always looking to become better at what I do. If you've got any questions feel free to contact me!", //description = subtitle
+    description: "I am a newly graduated Full Stack Web Designer. I enjoy coding, and am willing to take the time to learn new things and new ways to do things. I love music, and finanancial shenanigans.", //description = subtitle
     buttonLabel: 'Check my Socials!',
     toLink: 'socials',
     imgStart: false,
@@ -25,12 +25,12 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topLine: 'What I Know',
     heading: 'Full Stack Web Development',
-    description: "I am newly graduated Full Stack Web Designer. I'm always looking to become better at what i do. if you've got any questions feel free to contact me!", //description = subtitle
+    description: "Like I said, I am newly graduated Full Stack Web Designer. I graduated from Bethel's School of Technology with a Certificate in Full Stack Web Design. My main language I work in right now, is JavaScript, but eventually want to push myself into C++ (For game dev). ", //description = subtitle
     buttonLabel: 'Link to Resume',
     toLink: 'socials',
     imgStart: true,
-    img: require('../../images/me.jpg').default, //Need photo tha is compatable with this. PNGs are not.
-    alt: 'Picture of Resume',
+    img: require('../../images/bst.png').default, //Need photo tha is compatable with this. PNGs are not.
+    alt: 'Picture of School',
     dark: "",
     primary: "",
     darkText: true
@@ -44,15 +44,16 @@ export const homeObjThree = {
     lightTextDesc: true,
     topLine: 'Projects',
     heading: 'What have I done...',
-    description: "I am newly graduated Full Stack Web Designer. I'm always looking to become better at what i do. if you've got any questions feel free to contact me!", //description = subtitle
-    buttonLabel: 'Some of my projects...',
+    description: "Scroll down to see my most current project...", //description = subtitle
+    buttonLabel: 'Look at recent project...',
     toLink: 'experience',
     imgStart: false,
-    img: require('../../images/me.jpg').default, //Need photo tha is compatable with this. PNGs are not.
-    alt: 'Picture of me',
+    img: require('../../images/Github.png').default, //Need photo tha is compatable with this. PNGs are not.
+    alt: 'Picture of github repos',
     dark: "true",
     primary: "true",
-    darkText: false
+    darkText: false,
+    toLink: 'projects2'
 }
 
 //Search up unDraw for svg stuff...
