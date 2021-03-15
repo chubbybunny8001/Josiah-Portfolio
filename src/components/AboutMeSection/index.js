@@ -11,7 +11,7 @@ import {
     AboutBtnWrapper,
     ArrowFoward,
     ArrowRight,
-    HiddenButton
+    HiddenButton1
 } from './AboutMeElements';
 
 const AboutMeSection = () => {
@@ -33,7 +33,7 @@ const AboutMeSection = () => {
                     <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
                 </AboutBg>
                 <AboutContent>
-                    <AboutH1>Josiah R. A<HiddenButton href="www.google.com" target="_blank">.</HiddenButton> Campbell Sanchez</AboutH1>
+                    <AboutH1>Josiah R. A. Campbell Sanchez</AboutH1>
                     <AboutP>Full Stack Web Designer Portfolio using React!</AboutP>
                     <AboutBtnWrapper>
                         <Button to="/contactMe" onMouseEnter={onHover} onMouseLeave={onHover}

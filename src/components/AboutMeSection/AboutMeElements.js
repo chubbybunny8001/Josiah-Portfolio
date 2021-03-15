@@ -101,14 +101,4 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     font-size: 20px;
 `;
 
-export const HiddenButton = styled.a`
-    color: #fff;
-    text-decoration: none;
-
-    &:hover{
-        color: #01bf71;
-        transition: all 0.4s ease-in;
-    }
-`;
-
 //Make it so that when the button is hit, it makes it so a letter/number is added, and the correct passkey is needed to enter the secret room...
