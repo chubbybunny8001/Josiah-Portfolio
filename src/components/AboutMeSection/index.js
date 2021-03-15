@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Video from '../../videos/video2.mp4';
+import Video from '../../images/PlaceHolderIMG.png';
 import {ButtonR as Button} from '../ButtonElements';
 import {
     AboutContainer,
@@ -10,8 +10,7 @@ import {
     AboutP,
     AboutBtnWrapper,
     ArrowFoward,
-    ArrowRight,
-    HiddenButton1
+    ArrowRight
 } from './AboutMeElements';
 
 const AboutMeSection = () => {
@@ -30,7 +29,7 @@ const AboutMeSection = () => {
                 //switch shadow="" to make the background light
                 >
                 <AboutBg>
-                    <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                    <VideoBg src={Video}/>
                 </AboutBg>
                 <AboutContent>
                     <AboutH1>Josiah R. A. Campbell Sanchez</AboutH1>
