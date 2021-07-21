@@ -43,7 +43,9 @@ const Footer = () => {
                             </FooterLinkItems>
                             <FooterLinkItems>
                                 <FooterLinkTitle>Resume</FooterLinkTitle>
-                                    <FooterSocialLink href="https://drive.google.com/file/d/1R8rp9rVZ35HFxHM2oFGS_zmJN4Refm6s/view?usp=sharing" target="_blank">Chronological Resume</FooterSocialLink>
+                                    <FooterSocialLink href="https://docs.google.com/document/d/e/2PACX-1vTH7-oFprM1opfNUgYI2yP4-nr4TpCoMeVo_NjPPxhwGK5eAEzziHgCZ0aW8DUFMQ/pub" target="_blank">Chronological Resume</FooterSocialLink>
+                                    <FooterSocialLink href="https://docs.google.com/document/d/e/2PACX-1vT8qXOukCb5xzDIK8q5dwfa5EUqTlwZOdCGULHFUOMTyMOrySFO7gRXeqRxGN3kQ-04zCuYmiMWWv74/pub" target="_blank">Angular Deveoper</FooterSocialLink>
+                                    <FooterSocialLink href="https://docs.google.com/document/d/e/2PACX-1vTdbYYi7hxLnLiTWMuagkT_QQ64hkJUP4SlCWAC-4n4SJAETFWfv7q_ZsJArOlrPVU6g1mrihTMwpWT/pub" target="_blank">JavaScript Developer</FooterSocialLink>
                                     {/* <FooterSocialLink href="https://www.facebook.com/josiah.sanchez.338" target="_blank">C</FooterSocialLink>
                                     <FooterSocialLink href="https://www.linkedin.com/in/josiah-sanchez-7671a1192/" target="_blank">LinkedIn</FooterSocialLink> 
                                     FOR MY OTHER RESUMES WHEN I GET TO MAKE THEM...
