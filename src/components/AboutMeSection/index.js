@@ -33,7 +33,7 @@ const AboutMeSection = () => {
                 </AboutBg>
                 <AboutContent>
                     <AboutH1>Josiah R. A. Campbell Sanchez</AboutH1>
-                    <AboutP>This is my personal website!</AboutP>
+                    <AboutP>Founder of "At Its Finest" custom websites.</AboutP>
                     <AboutBtnWrapper>
                         <Button to="/contactMe" onMouseEnter={onHover} onMouseLeave={onHover}
                             primary="true"

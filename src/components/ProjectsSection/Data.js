@@ -6,7 +6,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'About Me',
     heading: 'Who am I?',
-    description: "I am a newly graduated Full Stack Web Designer. I enjoy coding, and am willing to take the time to learn new things and new ways to do things. I love music, and finanancial shenanigans.", //description = subtitle
+    description: "I am a Full Stack Web Designer. My favorite thing to do is making people clean and smooth webpages, and if youve got an idea, I can bring it to life!.", //description = subtitle
     buttonLabel: 'Check my Socials!',
     toLink: 'socials',
     imgStart: false,
@@ -25,7 +25,7 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topLine: 'What I Know',
     heading: 'Full Stack Web Development',
-    description: "Like I said, I am newly graduated Full Stack Web Designer. I graduated from Bethel's School of Technology with a Certificate in Full Stack Web Design. My main language I work in right now, is JavaScript, but eventually want to push myself into C++ (For game dev). ", //description = subtitle
+    description: "Like I said, I am Full Stack Web Designer. At the beginning 2021 I graduated from Bethel's School of Technology with a Certificate in Full Stack Web Design. My main language is JavaScript, but eventually want to push myself into C++ (For game dev). ", //description = subtitle
     buttonLabel: 'Link to Resume',
     toLink: 'socials',
     imgStart: true,
