@@ -1,7 +1,6 @@
 import React from "react";
 
 function Modal({ children, shown, close }) {
-    const [modalShown, toggleModal] = React.useState(false);
     return shown ? (
         <div
         className="modal-backdrop"
