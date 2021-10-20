@@ -1,5 +1,5 @@
 //About Me Section
-export const homeObjOne = {
+export const aboutMeData = {
     id: 'about',
     lightBg: false,
     lightText: true,
@@ -18,7 +18,7 @@ export const homeObjOne = {
 }
 
 //What I Know Section
-export const homeObjTwo = {
+export const whatIKnow = {
     id: 'frameworks',
     lightBg: true,
     lightText: false,
@@ -37,7 +37,7 @@ export const homeObjTwo = {
 }
 
 //Projects Section
-export const homeObjThree = {
+export const gitHub = {
     id: 'projects',
     lightBg: false,
     lightText: true,
