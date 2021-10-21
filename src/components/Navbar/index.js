@@ -18,7 +18,7 @@ const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 40) {
       setScrollNav(true);
     } else {
       setScrollNav(false);
@@ -52,7 +52,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-40}
                 >
                   Project
                 </NavLinks>
@@ -64,7 +64,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-40}
                 >
                   Github
                 </NavLinks>
@@ -76,7 +76,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-35}
                 >
                   What I Know
                 </NavLinks>
@@ -88,7 +88,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-35}
                 >
                   About Me
                 </NavLinks>
