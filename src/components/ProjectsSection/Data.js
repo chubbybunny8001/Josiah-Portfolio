@@ -39,9 +39,9 @@ export const whatIKnow = {
 //Projects Section
 export const gitHub = {
     id: 'projects',
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Projects',
     heading: 'What have I done...',
     description: "Scroll down to see my most current project...", //description = subtitle
