@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import reactDom from 'react-dom';
 import Icon1 from '../../images/openMic.png';
 import Icon2 from '../../images/CompView.png';
 import Icon3 from '../../images/Mobile.png';
@@ -12,7 +11,8 @@ import {
     ExperienceH2,
     ExperienceP
 } from "./ExperienceElements";
-import Modal from "./modal"
+import Modal from "../Modal/modal"
+import { ModalButton, ModalHead, ModalBody, ModalImage, ModalContent, ModalContainer, ModalImageContainer } from '../Modal/ModalElement';
 import {cont1, cont2, cont3, hiddenCont}  from './ExperienceContent';
 
 const Experience = () => {
@@ -21,9 +21,9 @@ const Experience = () => {
     return (
         <>
             <ExperienceContainer id='projects2'>
-                <ExperienceH1>Most Recent Projec<button onClick={() => {setCont(hiddenCont); toggleModal(!modalShown); }}>t</button></ExperienceH1>
+                <ExperienceH1>Most Recent Projec<ModalButton onClick={() => {setCont(hiddenCont); toggleModal(!modalShown); }}>t</ModalButton></ExperienceH1>
                 <ExperienceWrapper>
-                    <button onClick={() => {                        
+                    <ModalButton onClick={() => {                        
                         setCont(cont1);
                         toggleModal(!modalShown); 
                     }}>
@@ -32,8 +32,8 @@ const Experience = () => {
                         <ExperienceH2>Home Page</ExperienceH2>
                         <ExperienceP>Social Media platform with a realtime chatroom. Checkout my Github for more details!.</ExperienceP>
                     </ExperienceCard>
-                    </button>
-                    <button onClick={() => {                        
+                    </ModalButton>
+                    <ModalButton onClick={() => {                        
                         setCont(cont2);
                         toggleModal(!modalShown);
                         }}>
@@ -43,8 +43,8 @@ const Experience = () => {
                         <ExperienceP>This was the wireframe I made to mimic the way the application would work on a desktop/laptop.</ExperienceP>
                         
                     </ExperienceCard>
-                    </button>
-                    <button onClick={() => {
+                    </ModalButton>
+                    <ModalButton onClick={() => {
                         setCont(cont3);
                         toggleModal(!modalShown); 
                     }}>
@@ -53,12 +53,16 @@ const Experience = () => {
                         <ExperienceH2>Wireframe 2</ExperienceH2>
                         <ExperienceP>This is the mobile wireframe. I made to help the team visualize the mobile version of the app.</ExperienceP>
                     </ExperienceCard>
-                    </button>
+                    </ModalButton>
                 </ExperienceWrapper>
                 <Modal shown={modalShown} close={() => {toggleModal(false);}}>
-                    <h1>{cont.head}</h1>
-                    <p>{cont.body}</p>
-                    <img src={cont.picture} alt="text" />
+                    <ModalContainer>
+                        <ModalHead>{cont.head}</ModalHead>
+                        <ModalBody>{cont.body}</ModalBody>
+                        <ModalImageContainer>
+                            <ModalImage src={cont.picture} alt="text" />
+                        </ModalImageContainer>
+                    </ModalContainer>
                 </Modal>
             </ExperienceContainer>
         </>

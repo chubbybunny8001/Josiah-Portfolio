@@ -45,7 +45,7 @@ export const ExperienceWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
-        padding: 0 20px;
+        padding: 0 40px;
     }
 `;
 

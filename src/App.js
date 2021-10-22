@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './pages';
 import ContactPage from './pages/contact';
-import Modal  from './components/Experience/modal';
+import Modal  from './components/Modal/modal';
 
 function App() {
   //Logic goes here.
