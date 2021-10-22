@@ -21,7 +21,7 @@ const Experience = () => {
     return (
         <>
             <ExperienceContainer id='projects2'>
-                <ExperienceH1>Most Recent Projec<ModalButton onClick={() => {setCont(hiddenCont); toggleModal(!modalShown); }}>t</ModalButton></ExperienceH1>
+                <ExperienceH1>Past Project<ModalButton onClick={() => {setCont(hiddenCont); toggleModal(!modalShown); }}>s</ModalButton></ExperienceH1>
                 <ExperienceWrapper>
                     <ModalButton onClick={() => {                        
                         setCont(cont1);
@@ -60,7 +60,7 @@ const Experience = () => {
                         <ModalHead>{cont.head}</ModalHead>
                         <ModalBody>{cont.body}</ModalBody>
                         <ModalImageContainer>
-                            <ModalImage src={cont.picture} alt="text" />
+                            <ModalImage src={cont.picture} alt="text" allowFullScreen="true"></ModalImage>
                         </ModalImageContainer>
                     </ModalContainer>
                 </Modal>

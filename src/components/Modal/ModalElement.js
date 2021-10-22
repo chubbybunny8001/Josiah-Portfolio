@@ -15,8 +15,8 @@ export const ModalBackdrop = styled.div`
 
 export const ModalContent = styled.div`
     width: 70%;
-    height: fit-content;
-    max-height: 65%;
+    height: 60%;
+    max-height: 75%;
     background-color: white;
     padding: 25px;
     border-radius: 10px;
@@ -84,12 +84,17 @@ export const ModalImageContainer = styled.div`
     text-align: center;
 `;
 
-export const ModalImage = styled.img`
-    max-width: 90%;
-    height: auto;
+export const ModalImage = styled.iframe`
+    width: 100%;
+    height: 100%;
 
-    @media screen and (max-width: 786px){
-        max-width: 70%;
+    /* @media screen and (max-width: 786px){
+        max-width: 80%;
     }
+
+    @media screen and (max-width: 480px){
+        max-width: 90%;
+    } */
+    
 `;
 

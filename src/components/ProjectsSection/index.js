@@ -12,7 +12,8 @@ import {
     BtnWrap,
     Column2,
     ImgWrap,
-    Img
+    Img,
+    ExternButton
 } from "./ProjectsElements";
 
 const Projects = ({
@@ -29,7 +30,9 @@ const Projects = ({
     alt,
     primary,
     dark,
-    toLink
+    toLink,
+    url,
+    blank
 }) => {
     return (
         <>
@@ -41,8 +44,9 @@ const Projects = ({
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText={lightText} >{heading}</Heading>
                             <Subtitle darkText={darkText} >{description}</Subtitle>
-                            <BtnWrap>
-                                <Button to={toLink}
+                            
+                                <BtnWrap>
+                                <Button
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -50,8 +54,9 @@ const Projects = ({
                                     offset={-80}
                                     primary={primary}
                                     dark={dark}
-                                >{buttonLabel}</Button>
-                            </BtnWrap>
+                                ><ExternButton href={url} target={blank}>{buttonLabel}</ExternButton></Button>
+                                </BtnWrap>
+                            
                         </TextWrapper>
                         </Column1>
                         <Column2>

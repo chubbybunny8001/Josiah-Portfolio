@@ -43,17 +43,19 @@ export const gitHub = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Projects',
-    heading: 'What have I done...',
-    description: "Scroll down to see my most current project...", //description = subtitle
+    heading: 'Past Projects',
+    description: "Click to get taken to my github!", //description = subtitle
     buttonLabel: 'Look at recent project...',
     toLink: 'experience',
-    imgStart: false,
+    imgStart: true,
     img: require('../../images/Github.png').default, //Need photo tha is compatable with this. PNGs are not.
-    alt: 'Picture of github repos',
+    alt: 'Picture of GitHub Repos',
     dark: "true",
     primary: "true",
-    darkText: false,
-    toLink: 'projects2'
+    darkText: true,
+    toLink: '',
+    url: 'https://github.com',
+    blank: '_blank'
 }
 
 //Search up unDraw for svg stuff...

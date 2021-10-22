@@ -11,7 +11,7 @@ export const ExperienceContainer = styled.div`
     align-items: center;
     background: #010606;
 
-    @media screen and (max-width: 768x) {
+    @media screen and (max-width: 768px) {
         height: 1100px;
     }
 
@@ -57,6 +57,7 @@ export const ExperienceCard = styled.div`
     align-items: center;
     border-radius: 10px;
     max-height: 340px;
+    max-width: 500px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
@@ -69,8 +70,7 @@ export const ExperienceCard = styled.div`
 `;
 
 export const ExperienceIcon = styled.img`
-    height: 160px;
-    width: 160px;
+    height: 100px;
     margin-bottom: 10px;
 `;
 

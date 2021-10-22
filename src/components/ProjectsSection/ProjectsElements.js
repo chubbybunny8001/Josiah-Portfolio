@@ -98,3 +98,13 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
 `;
+
+export const ExternButton = styled.a`
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+`;

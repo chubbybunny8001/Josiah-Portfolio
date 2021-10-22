@@ -16,5 +16,5 @@ export const cont3 = {
 export const hiddenCont ={
             head: 'Hidden Container',
             body: 'This tab is typically unseen to the eye. You my friend have found the hidden feature. You may now pat yourself on the back.',
-            picture: require('../../images/meme.png').default,
+            picture: 'https://www.youtube.com/embed/Vo6HXsHgizc'
 }
