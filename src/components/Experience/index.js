@@ -12,7 +12,7 @@ import {
     ExperienceP
 } from "./ExperienceElements";
 import Modal from "../Modal/modal"
-import { ModalButton, ModalHead, ModalBody, ModalImage, ModalContent, ModalContainer, ModalImageContainer } from '../Modal/ModalElement';
+import { ModalButton, ModalHead, ModalBody, ModalImage, ModalContainer, ModalImageContainer } from '../Modal/ModalElement';
 import {cont1, cont2, cont3, hiddenCont}  from './ExperienceContent';
 
 const Experience = () => {
