@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const ModalBackdrop = styled.div`
+    padding-top: 5%;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -14,9 +15,8 @@ export const ModalBackdrop = styled.div`
 `;
 
 export const ModalContent = styled.div`
-    width: 70%;
-    height: 60%;
-    max-height: 75%;
+    width: 60%;
+    height: 80%;
     background-color: white;
     padding: 25px;
     border-radius: 10px;
@@ -27,11 +27,11 @@ export const ModalContent = styled.div`
     }
     @media screen and (max-width: 786px){
         width: 85%;
-        max-height: 70%;
+        height: 80%;
     }
     @media screen and (max-width: 480px){
         width: 90%;
-        max-height: 60%;
+        max-height: 85%;
     }
 `;
 
@@ -58,7 +58,7 @@ export const ModalContainer = styled.div`
     "modimage modimage"
     "modimage modimage";
     @media screen and (max-width: 786px){
-        grid-template-rows: .5fr .5fr 3fr;
+        grid-template-rows: .2fr .5fr 3fr;
         grid-template-areas: 
         "modhead modhead"
         "modbody modbody"

@@ -46,6 +46,11 @@ export const NavLogo = styled(LinkScroll)`
         transition: all 0.2s ease-in-out;
         color: #01bf71;
     }
+
+    @media (max-width: 300px){
+        margin-left: 20px;
+        font-size: 1.3rem;
+    }
 `;
 
 export const MobileIcon = styled.div`

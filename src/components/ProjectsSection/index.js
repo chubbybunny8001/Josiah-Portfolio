@@ -44,9 +44,8 @@ const Projects = ({
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText={lightText} >{heading}</Heading>
                             <Subtitle darkText={darkText} >{description}</Subtitle>
-                            
                                 <BtnWrap>
-                                <Button
+                                <Button to={toLink}
                                     smooth={true}
                                     duration={500}
                                     spy={true}
@@ -54,7 +53,7 @@ const Projects = ({
                                     offset={-80}
                                     primary={primary}
                                     dark={dark}
-                                ><ExternButton href={url} target={blank}>{buttonLabel}</ExternButton></Button>
+                                >{buttonLabel}</Button>
                                 </BtnWrap>
                             
                         </TextWrapper>
