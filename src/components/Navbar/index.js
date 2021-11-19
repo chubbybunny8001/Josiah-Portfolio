@@ -18,7 +18,7 @@ const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 40) {
       setScrollNav(true);
     } else {
       setScrollNav(false);
@@ -47,26 +47,14 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to="about"
+                  to="projects2"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-40}
                 >
-                  About Me
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to="frameworks"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  What I Know
+                  Projects
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -76,21 +64,33 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-40}
                 >
-                  Projects
+                  Github
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="projects2"
+                  to="frameworks"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-80}
+                  offset={-35}
                 >
-                  Projects Cont.
+                  What I Know
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-35}
+                >
+                  About Me
                 </NavLinks>
               </NavItem>
             </NavMenu>
