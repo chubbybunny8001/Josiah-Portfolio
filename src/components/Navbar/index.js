@@ -45,7 +45,7 @@ const Navbar = ({ toggle }) => {
               <FaBars />
             </MobileIcon>
             <NavMenu>
-            <NavItem>
+              <NavItem>
                 <NavLinks
                   to="projects2"
                   smooth={true}
@@ -54,10 +54,10 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-40}
                 >
-                  Project
+                  Projects
                 </NavLinks>
               </NavItem>
-            <NavItem>
+              <NavItem>
                 <NavLinks
                   to="projects"
                   smooth={true}
