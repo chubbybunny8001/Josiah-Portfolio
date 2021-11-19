@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+import { ButtonA } from "../ButtonElements";
 import {
   ProjectsContainer,
   ProjectsWrapper,
@@ -16,7 +16,7 @@ import {
   ExternButton,
 } from "./ProjectsElements";
 
-const Projects = ({
+const Github = ({
   lightBg,
   id,
   imgStart,
@@ -45,18 +45,16 @@ const Projects = ({
                 <Heading lightText={lightText}>{heading}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
-                    to={toLink}
+                  <ButtonA
+                    href={url}
                     smooth={true}
-                    duration={500}
                     spy={true}
-                    exact="true"
-                    offset={-80}
                     primary={primary}
                     dark={dark}
+                    target={blank}
                   >
                     {buttonLabel}
-                  </Button>
+                  </ButtonA>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
@@ -72,4 +70,4 @@ const Projects = ({
   );
 };
 
-export default Projects;
+export default Github;

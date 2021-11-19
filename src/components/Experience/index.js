@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import Icon1 from "../../images/MapOfMiddleEarth.jpg";
-import Icon2 from "../../images/CompView.png";
-import Icon3 from "../../images/Mobile.png";
 import {
   ExperienceContainer,
   ExperienceH1,
@@ -19,6 +16,7 @@ import {
   ModalImage,
   ModalContainer,
   ModalImageContainer,
+  ModalALink,
 } from "../Modal/ModalElement";
 import { cont1, cont2, cont3, hiddenCont } from "./ExperienceContent";
 
@@ -47,12 +45,9 @@ const Experience = () => {
             }}
           >
             <ExperienceCard>
-              <ExperienceIcon src={Icon1} />
+              <ExperienceIcon src={cont1.icon} />
               <ExperienceH2>{cont1.title}</ExperienceH2>
-              <ExperienceP>
-                An interactive website that allows you to explore the famous
-                locations of Lord of the Rings.
-              </ExperienceP>
+              <ExperienceP>{cont1.description}</ExperienceP>
             </ExperienceCard>
           </ModalButton>
           <ModalButton
@@ -62,12 +57,9 @@ const Experience = () => {
             }}
           >
             <ExperienceCard>
-              <ExperienceIcon src={Icon2} />
+              <ExperienceIcon src={cont2.icon} />
               <ExperienceH2>{cont2.title}</ExperienceH2>
-              <ExperienceP>
-                This was the wireframe I made to mimic the way the application
-                would work on a desktop/laptop.
-              </ExperienceP>
+              <ExperienceP>{cont2.description}</ExperienceP>
             </ExperienceCard>
           </ModalButton>
           <ModalButton
@@ -77,13 +69,9 @@ const Experience = () => {
             }}
           >
             <ExperienceCard>
-              <ExperienceIcon src={Icon3} />
-              <ExperienceH2></ExperienceH2>
-              <ExperienceP>
-                This is the mobile wireframe. I made to help the team visualize
-                the mobile version of the app. Have to add another line to even
-                this out...
-              </ExperienceP>
+              <ExperienceIcon src={cont3.icon} />
+              <ExperienceH2>{cont3.title}</ExperienceH2>
+              <ExperienceP>{cont3.description}</ExperienceP>
             </ExperienceCard>
           </ModalButton>
         </ExperienceWrapper>
@@ -95,7 +83,13 @@ const Experience = () => {
         >
           <ModalContainer>
             <ModalHead>{cont.head}</ModalHead>
-            <ModalBody>{cont.body}</ModalBody>
+
+            <ModalBody>
+              {cont.body}
+              <ModalALink href={cont.link} target="_blank">
+                {cont.linkName}
+              </ModalALink>
+            </ModalBody>
             <ModalImageContainer>
               <ModalImage
                 src={cont.picture}

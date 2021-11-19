@@ -17,7 +17,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         <Icon onClick={toggle}>
           <CloseIcon />
         </Icon>
-        <SidebarWrapper>
+        <SidebarWrapper isOpen={isOpen}>
           <SidebarMenu>
             <SidebarLink to="projects2" onClick={toggle}>
               Recent Projects

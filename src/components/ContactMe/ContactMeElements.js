@@ -22,7 +22,7 @@ export const FormWrap = styled.div`
   justify-content: center;
 
   @media screen and (max-height: 400px) {
-    height: 80%;
+    height: 80vh;
   }
 `;
 
@@ -36,6 +36,9 @@ export const Icon = styled(Link)`
   z-index: 10;
 
   @media screen and (max-width: 480px) {
+    text-align: center;
+  }
+  @media screen and (max-height: 400px) {
     text-align: center;
   }
 `;

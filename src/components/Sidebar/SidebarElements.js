@@ -33,22 +33,23 @@ export const Icon = styled.div`
 `;
 
 export const SidebarWrapper = styled.div`
+  height: 100vh;
+  width: 100vw;
+  display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
+  flex-direction: column;
+  justify-content: space-around;
   color: #fff;
 `;
 
 export const SidebarMenu = styled.ul`
-  display: grid;
-  grid-template-colums: 1fr;
-  grid-template-rows: repeat(6, 80px);
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   text-align: center;
-
-  @media screen and (mx-width: 480px) {
-    grid-template-rows: repeat(6, 60px);
-  }
 `;
 
 export const SidebarLink = styled(LinkS)`
-  margin-top: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
