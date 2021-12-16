@@ -26,13 +26,13 @@ export const cont2 = {
 };
 export const cont3 = {
   icon: Icon3,
-  title: "TL Wood",
+  title: "Taylor Laron Art",
   description:
     "A website for a wood repair private contractor. The primary perpose is allow owner to Owners work.",
   head: "Taylor Larson Wood Repair",
   body: "This was the wireframe I made to mimic the way the application would work on a desktop/laptop.",
   picture: Icon3,
-  link: "https://taylorlarsonwoodrepair.netlify.app/",
+  link: "https://taylorlarsonartwork.netlify.app/",
   linkName: "See TL Wood Website",
 };
 export const hiddenCont = {
